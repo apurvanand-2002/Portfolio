@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apurv's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/95ff37d342.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student At National Institute Of Technology, Silchar, Assam, India</p>
+                <h1>Hi, I am Apurv Anand.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------about------- -->
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Apurv Photo.jpg" width="400px" height="500px">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am second year student in Department of Computer Science And Engineering
+                    at National Institute Of Technology ,Silchar. I am an enthusiastic learner
+                    who is always ready to explore new technologies and opportunities. I have
+                    experience of programming in C, C++ etc.
+                    <br><br>
+                    <br>If you have any suitable opportunities for me feel free to drop me a
+                    message.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class=" tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class=" tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>C and C++ Programming</span><br>Proficient coder in C++ language. Also have hands on
+                            experience in Object Oriented Programming.</li>
+                        <li><span>Web Development</span><br>Expert in HTML and CSS. Presently, learning
+                            Javascript.</li>
+                        <li><span>Data Visualization</span><br>Has knowledge of Python libraries like
+                            numpy, pandas and matplotlib etc to effectively represent a problem and can use regression
+                            techniques to find optimal solution to a problem.</li>
+                    </ul>
+                </div>
+
+
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Junior Member of CSS ML Wing </span><br>October 2022 - Present <br>
+                            Responsible for organising all activities and events related to Machine Learning in the
+                            college.
+                        </li>
+                        <li><span>Member Of Trading Club,NIT Silchar</span><br>October 2022 - Present <br>
+                            I am a member in Cryptocurrency division at Trading Club. I analyse market trends
+                            i.e. downfall and uprise of various crypto-currencies.</li>
+                    </ul>
+                </div>
+
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>National Institute Of Technology,Silchar</span><br>December 2021 to Present
+                            <br>Bachelor Of Technology(B.Tech)
+                            ,Computer Science And Engineering.
+                        </li>
+                        <li><span>Riverdale High School, Aurangabad, Maharashtra</span><br>11th - 12th
+                            <br>2018-2020<br>Grade:96.2%
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!----------------services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programmer</h2>
+                    <p>I have experience of programming in C++, C, Python and Java.
+                        I also have hands on experience in Object oriented programming.<br></p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Developer</h2>
+                    <p>I am proficient in HTML and CSS ,so, I am proficient in frontend.
+                        Presently, I am working on backend part and soon will be ready for that as well.<br></p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Service-3</h2>
+                    <p>Coming Soon! <br></p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------portfolio-------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Programming.JPG">
+                    <div class="layer">
+                        <h3>Coming Soon</h3>
+                        <p>Coming Soon!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Webd.JPG">
+                    <div class="layer">
+                        <h3>Coming Soon</h3>
+                        <p>Coming Soon!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <!-- <img src="ComingSoon.JPG"> -->
+                    <!-- <div class="layer">
+                        <h3>Coming Soon</h3>
+                        <p>Coming Soon!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div> -->
+                </div>
+            </div>
+            <!-- Button has been commented for now. -->
+            <!-- <a href="#" class="btn">See More</a> -->
+        </div>
+    </div>
+    <!-- ---------------contacts---------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> apurvanand.2002@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 8459076922</p>
+                    <div class="social-icons">
+
+                        <a href="https://www.linkedin.com/in/apurv-anand-634b21227"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/apurvanand-2002"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100076566816479"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="sampleCV.docx" class="btn btn2">Download My Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email Id" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwDErMEjJmDx5WGZFVaxVVQOxuxsicc5IP_z7l4YG18i5qqds1RT3Wr_d1gNSXh7GTt/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
